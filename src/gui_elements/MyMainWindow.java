@@ -69,7 +69,7 @@ public class MyMainWindow extends JFrame {
 
 	private void addRadioButtons() {
 		// The label to select os
-		this.label_os_you_use = new JLabel("Elije un sistema operativo");
+		this.label_os_you_use = new JLabel("Elige un sistema operativo");
 		this.label_os_you_use.setBounds(20, 60, 200, 23);
 		this.content_pane.add(this.label_os_you_use);
 
@@ -100,7 +100,7 @@ public class MyMainWindow extends JFrame {
 
 	private void addCheckBoxes() {
 		// Labels for speciality
-		this.label_speciality = new JLabel("Elije tu especialidad");
+		this.label_speciality = new JLabel("Elige tu especialidad");
 		this.label_speciality.setBounds(230, 60, 200, 23);
 		this.content_pane.add(this.label_speciality);
 
